@@ -3,17 +3,9 @@ package com.example.payudemoapp
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
-import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
 import android.webkit.WebView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.payudemoapp.databinding.ActivityMainBinding
 import com.payu.base.models.ErrorResponse
 import com.payu.base.models.PayUPaymentParams
@@ -24,7 +16,6 @@ import com.payu.ui.model.listeners.PayUHashGenerationListener
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
