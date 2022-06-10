@@ -139,7 +139,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, s, Toast.LENGTH_LONG).show()
 
     companion object {
-        private const val TAG = "FirstFragment"
+        private const val TAG = "MainActivity"
         private const val merchantKey = "7rnFly"
         private const val merchantSalt = "pjVQAWpA"
     }
